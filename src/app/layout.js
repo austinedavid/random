@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'The rats',
   description: 'we are running the rat campaigns',
+  openGraph: {
+    title: 'checking og',
+    description: 'running my og for search engine optimization.',
+  },
 }
 
 export default function RootLayout({ children }) {

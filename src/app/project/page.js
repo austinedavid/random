@@ -1,4 +1,4 @@
-import Projextcom from '@/components/Projextcom'
+
 import React from 'react'
 
 // making the request from frontend
@@ -13,7 +13,7 @@ export default function Project() {
   return (
     <div>
         <p>thanks</p>
-        <Projextcom/>
+       
     </div>
   )
 }
