@@ -1,8 +1,13 @@
+import Tesimony from '@/components/Tesimony'
 import React from 'react'
 
 const Testimony = () => {
   return (
-    <div>Testimony</div>
+    <div>
+      <p>testimony</p>
+      <Tesimony/>
+    </div>
+    
   )
 }
 

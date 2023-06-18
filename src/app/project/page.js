@@ -1,12 +1,16 @@
 
 import React from 'react'
+import { openGraphImage } from '@/components/Shared'
 
-// making the request from frontend
-// const getpaths = async()=>{
-//     const response = await fetch("http://localhost:3000/api");
-//     const res = await response.json();
-//     return res
-// }
+export const metadata = {
+  title: "the about page",
+  description: "this is our about page",
+  openGraph:{
+    ...openGraphImage,
+    title: "running our project now"
+  }
+}
+
 export default function Project() {
     // const sourceEnd = await getpaths()
    
