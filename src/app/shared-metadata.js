@@ -1,0 +1,2 @@
+import goat from "../utils/goat.jpg"
+export const openGraphImage = { images: ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fanimal%2Fgoat&psig=AOvVaw3O2C9_3D_XSVjs-06P8aTW&ust=1687206562962000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJDez6_Uzf8CFQAAAAAdAAAAABAE"] }
